@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1D628522F335FF6E3AE4FD317007C765BA9E5218",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1D628522F335FF6E3AE4FD317007C765BA9E5218" : 9223372036854775807,
+    "5DE9E9F0A3D5018ED2AC49BCDE61F053FA370BFF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61BEE993-7DE1-424C-804C-981B8E5FFB84",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1D628522F335FF6E3AE4FD317007C765BA9E5218" : "player\/",
+    "5DE9E9F0A3D5018ED2AC49BCDE61F053FA370BFF" : "player\/platforms\/ios\/ddsios\/ddsios\/aios\/libs\/busclient\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ddsiosDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/ddsiosDemo\/ddsiosDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.spetechcular.com\/odcp\/player.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D628522F335FF6E3AE4FD317007C765BA9E5218"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.spetechcular.com\/kaifei.pu\/busclient",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DE9E9F0A3D5018ED2AC49BCDE61F053FA370BFF"
+    }
+  ]
+}
