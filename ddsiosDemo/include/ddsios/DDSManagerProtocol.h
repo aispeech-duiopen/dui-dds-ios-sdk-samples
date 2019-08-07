@@ -89,5 +89,12 @@
  第三方合成结束的回调
  */
 -(void)onStop;
+
+/*!
+ 音量变化的回调
+ 
+ @param rmsdB 音量大小
+ */
+-(void) DDSRmsChanged:(float)rmsdB;
 @end
 

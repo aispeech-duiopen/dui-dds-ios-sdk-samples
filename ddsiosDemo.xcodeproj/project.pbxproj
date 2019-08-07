@@ -216,6 +216,29 @@
 		4734DD0C1F9893C300B01C71 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4734DD0E1F98958300B01C71 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		4738C98C2138009C00DDE175 /* AITestDUICtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITestDUICtrl.m; sourceTree = "<group>"; };
+		477435C022FA65A100FC651D /* DDSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSConfig.h; sourceTree = "<group>"; };
+		477435C122FA65A100FC651D /* AIUpdateContextIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIUpdateContextIntent.h; sourceTree = "<group>"; };
+		477435C222FA65A100FC651D /* DDSManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSManagerProtocol.h; sourceTree = "<group>"; };
+		477435C322FA65A100FC651D /* ASREngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASREngineManager.h; sourceTree = "<group>"; };
+		477435C422FA65A100FC651D /* DDSAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSAuthInfo.h; sourceTree = "<group>"; };
+		477435C522FA65A100FC651D /* DuiWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuiWidget.h; sourceTree = "<group>"; };
+		477435C622FA65A100FC651D /* CommandObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandObserverProtocol.h; sourceTree = "<group>"; };
+		477435C722FA65A100FC651D /* NativeApiObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeApiObserver.h; sourceTree = "<group>"; };
+		477435C822FA65A100FC651D /* TTSEngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSEngineManager.h; sourceTree = "<group>"; };
+		477435C922FA65A100FC651D /* ListWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListWidget.h; sourceTree = "<group>"; };
+		477435CA22FA65A100FC651D /* MediaWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaWidget.h; sourceTree = "<group>"; };
+		477435CB22FA65A100FC651D /* WakeupEngineManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WakeupEngineManagerProtocol.h; sourceTree = "<group>"; };
+		477435CC22FA65A100FC651D /* ASREngineManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASREngineManagerProtocol.h; sourceTree = "<group>"; };
+		477435CD22FA65A100FC651D /* ContentWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentWidget.h; sourceTree = "<group>"; };
+		477435CE22FA65A100FC651D /* CommandObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandObserver.h; sourceTree = "<group>"; };
+		477435CF22FA65A100FC651D /* NativeApiObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeApiObserverProtocol.h; sourceTree = "<group>"; };
+		477435D022FA65A100FC651D /* MessageObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageObserverProtocol.h; sourceTree = "<group>"; };
+		477435D122FA65A100FC651D /* DDSWakeupEngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSWakeupEngineManager.h; sourceTree = "<group>"; };
+		477435D222FA65A100FC651D /* DDSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSManager.h; sourceTree = "<group>"; };
+		477435D322FA65A100FC651D /* TTSEngineManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSEngineManagerProtocol.h; sourceTree = "<group>"; };
+		477435D422FA65A100FC651D /* WebWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebWidget.h; sourceTree = "<group>"; };
+		477435D522FA65A100FC651D /* MessageObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageObserver.h; sourceTree = "<group>"; };
+		477435D622FA65A100FC651D /* TextWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextWidget.h; sourceTree = "<group>"; };
 		47908DA720E5CC1800CA7D1D /* Pods_ddsiosDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ddsiosDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47915E6E1F7394CB0095A2B4 /* ddsiosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ddsiosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47915E721F7394CB0095A2B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -382,26 +405,6 @@
 		47A83AE820D2533100DC9FA5 /* 6播报循环.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6播报循环.json"; sourceTree = "<group>"; };
 		47A83AE920D2533100DC9FA5 /* 3唤醒转倾听.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3唤醒转倾听.json"; sourceTree = "<group>"; };
 		47A83AEA20D2533100DC9FA5 /* 2唤醒循环.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2唤醒循环.json"; sourceTree = "<group>"; };
-		47DF4E8A2133D71C008F5078 /* DDSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSConfig.h; sourceTree = "<group>"; };
-		47DF4E8C2133D71C008F5078 /* DDSManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSManagerProtocol.h; sourceTree = "<group>"; };
-		47DF4E8D2133D71C008F5078 /* ASREngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASREngineManager.h; sourceTree = "<group>"; };
-		47DF4E8E2133D71C008F5078 /* DuiWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuiWidget.h; sourceTree = "<group>"; };
-		47DF4E8F2133D71C008F5078 /* CommandObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandObserverProtocol.h; sourceTree = "<group>"; };
-		47DF4E902133D71C008F5078 /* NativeApiObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeApiObserver.h; sourceTree = "<group>"; };
-		47DF4E912133D71C008F5078 /* TTSEngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSEngineManager.h; sourceTree = "<group>"; };
-		47DF4E922133D71C008F5078 /* ListWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListWidget.h; sourceTree = "<group>"; };
-		47DF4E932133D71C008F5078 /* MediaWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaWidget.h; sourceTree = "<group>"; };
-		47DF4E942133D71C008F5078 /* ASREngineManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASREngineManagerProtocol.h; sourceTree = "<group>"; };
-		47DF4E952133D71C008F5078 /* ContentWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentWidget.h; sourceTree = "<group>"; };
-		47DF4E962133D71C008F5078 /* CommandObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandObserver.h; sourceTree = "<group>"; };
-		47DF4E972133D71C008F5078 /* NativeApiObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeApiObserverProtocol.h; sourceTree = "<group>"; };
-		47DF4E982133D71C008F5078 /* MessageObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageObserverProtocol.h; sourceTree = "<group>"; };
-		47DF4E992133D71C008F5078 /* DDSWakeupEngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSWakeupEngineManager.h; sourceTree = "<group>"; };
-		47DF4E9A2133D71C008F5078 /* DDSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSManager.h; sourceTree = "<group>"; };
-		47DF4E9B2133D71C008F5078 /* TTSEngineManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSEngineManagerProtocol.h; sourceTree = "<group>"; };
-		47DF4E9C2133D71C008F5078 /* WebWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebWidget.h; sourceTree = "<group>"; };
-		47DF4E9D2133D71C008F5078 /* MessageObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageObserver.h; sourceTree = "<group>"; };
-		47DF4E9E2133D71C008F5078 /* TextWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextWidget.h; sourceTree = "<group>"; };
 		47DF4E9F2133D71C008F5078 /* libddsios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libddsios.a; sourceTree = "<group>"; };
 		47DF4EA52133E45D008F5078 /* dds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = dds.bundle; sourceTree = "<group>"; };
 		57F7319A2B2961444D709B8E /* Pods-ddsiosDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ddsiosDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ddsiosDemo/Pods-ddsiosDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -535,6 +538,44 @@
 			path = YCXMenu;
 			sourceTree = "<group>";
 		};
+		477435BE22FA65A100FC651D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				477435BF22FA65A100FC651D /* ddsios */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		477435BF22FA65A100FC651D /* ddsios */ = {
+			isa = PBXGroup;
+			children = (
+				477435C022FA65A100FC651D /* DDSConfig.h */,
+				477435C122FA65A100FC651D /* AIUpdateContextIntent.h */,
+				477435C222FA65A100FC651D /* DDSManagerProtocol.h */,
+				477435C322FA65A100FC651D /* ASREngineManager.h */,
+				477435C422FA65A100FC651D /* DDSAuthInfo.h */,
+				477435C522FA65A100FC651D /* DuiWidget.h */,
+				477435C622FA65A100FC651D /* CommandObserverProtocol.h */,
+				477435C722FA65A100FC651D /* NativeApiObserver.h */,
+				477435C822FA65A100FC651D /* TTSEngineManager.h */,
+				477435C922FA65A100FC651D /* ListWidget.h */,
+				477435CA22FA65A100FC651D /* MediaWidget.h */,
+				477435CB22FA65A100FC651D /* WakeupEngineManagerProtocol.h */,
+				477435CC22FA65A100FC651D /* ASREngineManagerProtocol.h */,
+				477435CD22FA65A100FC651D /* ContentWidget.h */,
+				477435CE22FA65A100FC651D /* CommandObserver.h */,
+				477435CF22FA65A100FC651D /* NativeApiObserverProtocol.h */,
+				477435D022FA65A100FC651D /* MessageObserverProtocol.h */,
+				477435D122FA65A100FC651D /* DDSWakeupEngineManager.h */,
+				477435D222FA65A100FC651D /* DDSManager.h */,
+				477435D322FA65A100FC651D /* TTSEngineManagerProtocol.h */,
+				477435D422FA65A100FC651D /* WebWidget.h */,
+				477435D522FA65A100FC651D /* MessageObserver.h */,
+				477435D622FA65A100FC651D /* TextWidget.h */,
+			);
+			path = ddsios;
+			sourceTree = "<group>";
+		};
 		47915E651F7394CB0095A2B4 = {
 			isa = PBXGroup;
 			children = (
@@ -557,8 +598,8 @@
 		47915E701F7394CB0095A2B4 /* ddsiosDemo */ = {
 			isa = PBXGroup;
 			children = (
+				477435BE22FA65A100FC651D /* include */,
 				47DF4EA12133DEC2008F5078 /* RES */,
-				47DF4E882133D71C008F5078 /* include */,
 				47DF4E9F2133D71C008F5078 /* libddsios.a */,
 				4734DD071F98939B00B01C71 /* Bugly.framework */,
 				47915E9D1F7396690095A2B4 /* vendor */,
@@ -911,41 +952,6 @@
 				47915F891F7398890095A2B4 /* libz.1.2.8.tbd */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		47DF4E882133D71C008F5078 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				47DF4E892133D71C008F5078 /* ddsios */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		47DF4E892133D71C008F5078 /* ddsios */ = {
-			isa = PBXGroup;
-			children = (
-				47DF4E8A2133D71C008F5078 /* DDSConfig.h */,
-				47DF4E8C2133D71C008F5078 /* DDSManagerProtocol.h */,
-				47DF4E8D2133D71C008F5078 /* ASREngineManager.h */,
-				47DF4E8E2133D71C008F5078 /* DuiWidget.h */,
-				47DF4E8F2133D71C008F5078 /* CommandObserverProtocol.h */,
-				47DF4E902133D71C008F5078 /* NativeApiObserver.h */,
-				47DF4E912133D71C008F5078 /* TTSEngineManager.h */,
-				47DF4E922133D71C008F5078 /* ListWidget.h */,
-				47DF4E932133D71C008F5078 /* MediaWidget.h */,
-				47DF4E942133D71C008F5078 /* ASREngineManagerProtocol.h */,
-				47DF4E952133D71C008F5078 /* ContentWidget.h */,
-				47DF4E962133D71C008F5078 /* CommandObserver.h */,
-				47DF4E972133D71C008F5078 /* NativeApiObserverProtocol.h */,
-				47DF4E982133D71C008F5078 /* MessageObserverProtocol.h */,
-				47DF4E992133D71C008F5078 /* DDSWakeupEngineManager.h */,
-				47DF4E9A2133D71C008F5078 /* DDSManager.h */,
-				47DF4E9B2133D71C008F5078 /* TTSEngineManagerProtocol.h */,
-				47DF4E9C2133D71C008F5078 /* WebWidget.h */,
-				47DF4E9D2133D71C008F5078 /* MessageObserver.h */,
-				47DF4E9E2133D71C008F5078 /* TextWidget.h */,
-			);
-			path = ddsios;
 			sourceTree = "<group>";
 		};
 		47DF4EA12133DEC2008F5078 /* RES */ = {

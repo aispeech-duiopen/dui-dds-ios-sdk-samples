@@ -62,6 +62,14 @@
  */
 -(void)setSpeaker:(NSString*)speaker;
 
+/**
+ * 设置TTS播报类型的接口
+ * 调用此接口则云端配置的合成音类型失效，此后的合成音类型都将由此接口来托管
+ * @param speaker 取值如：zhilingf, gdgm等
+ * @param resPath 合成资源的全路径: xxx/xxx/gdgm.bin
+ */
+-(void)setSpeaker:(NSString*)speaker withResPath:(NSString *)resPath;
+
 /*!
  设置TTS播报音量的接口,调用此接口则云端配置的合成音音量失效，此后的合成音音量都将由此接口来托管
  
@@ -134,5 +142,53 @@
  清空停止播放器   重设音频策略时调用
  */
 - (void)clearPlayer;
+
+
+/**
+ * 设置自定义TTS播报录音的接口
+ * 调用此接口则表态配置的播报录音失效,以动态设置的为准
+ *
+ * @param customAudioList 取值如：自定义播报音频列表
+ */
+
+- (void)setCustomAudio:(NSArray *)customAudioList;
+
+/**
+ * 获取自定义TTS播报录音的接口
+ * @return 自定义TTS播报录音
+ */
+- (NSArray *)getCustomAudio;
+
+
+/**
+ 设置音频策略改变是否清空播放队列
+ 
+ @param param YES 清空  NO 不清空
+ */
++(void)setCategorychangeClearQueue:(BOOL)param;
+
+
+/**
+ 获取音频策略改变是否清空播放队列
+ 
+ @return YES 清空  NO 不清空
+ */
++(BOOL)getCategorychangeClearQueue;
+
+
+/**
+ 设置音频打断是否停止播放
+ 
+ @param param YES 停止  NO 不停止
+ */
++ (void)setAudioSessionInterruptionStopPlay:(BOOL)param;
+
+
+/**
+ 获取音频策略改变是否清空播放队列
+ 
+ @return YES 停止  NO 不停止
+ */
++ (BOOL)getAudioSessionInterruptionStopPlay;
 
 @end

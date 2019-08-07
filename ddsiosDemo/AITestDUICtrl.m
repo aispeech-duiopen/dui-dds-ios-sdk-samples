@@ -98,7 +98,7 @@ int lottieStateVadSt = 1;
     [self authInitView];
     [self setAudioConfig];
     //打印Log
-    [DDSManager setLogEnabled:YES];
+//    [DDSManager setLogEnabled:YES];
     //[DDSManager setLogWriteToFile:YES];
     
     [self afterInit];
@@ -1487,7 +1487,6 @@ int lottieStateVadSt = 1;
     }
     //唤醒结果的通知，与配置项K_WAKEUP_ROUTER配合使用，只获取唤醒结果
     if ([message isEqualToString:@"sys.wakeup.result"]) {
-        [self test_startDialog];
         NSLog(@"%@, sys.wakeup.result响应了，数据:%@", TAG, data);
     }
     //识别结果的通知，与配置项K_ASR_ROUTER配合使用,只获取识别结果
@@ -1564,7 +1563,7 @@ int lottieStateVadSt = 1;
         NSLog(@"%@, navi.route data:%@", TAG, data);
         NSMutableDictionary  *dic = [self dictionaryWithJsonString:data];
 //        [self test_disableWakeup];
-        [self test_stopDialog];
+//        [self test_stopDialog];
         dispatch_async(dispatch_get_main_queue(), ^{
             //调用第三方导航
             NSLog(@"此处调用第三方导航api接口");

@@ -20,6 +20,7 @@
 #import "MessageObserverProtocol.h"
 #import "DDSWakeupEngineManager.h"
 #import "AIUpdateContextIntent.h"
+#import "DDSAuthInfo.h"
 
 /*!
  DDSManager 接口说明
@@ -211,11 +212,18 @@
 -(void)feedOgg:(NSData*)oggData;
 
 /*!
- 外部录音机,送Ogg音频, 需要将K_RECORDER_MODE设置为"external"，该接口才会生效
+ 外部录音机,送Opus音频, 需要将K_RECORDER_MODE设置为"external"，该接口才会生效
  
  @param opus 音频数据
  */
 -(void)feedOpus:(NSData*)opus;
+
+/*!
+ 外部录音机,送Sbc音频, 需要将K_RECORDER_MODE设置为"external"，该接口才会生效
+
+ @param sbc 音频数据
+ */
+-(void)feedSbc:(NSData *)sbc;
 
 /*!
   设置场景模式
@@ -564,18 +572,5 @@
  */
 -(void)updateGenderGreeting:(NSArray<NSString *> *)maleGreetings And:(NSArray<NSString *> *)femaleGreetings;
 
-
-/**
- 添加测试节点
- */
-- (void)testJoin;
-
-
-/**
- 删除测试节点
- */
-- (void)testDelete;
-
-- (void)setWriteLasaLog:(BOOL )isWrite;
 
 @end
