@@ -21,6 +21,7 @@
 #import "DDSWakeupEngineManager.h"
 #import "AIUpdateContextIntent.h"
 #import "DDSAuthInfo.h"
+#import "AIPhraseHintsIntent.h"
 
 /*!
  DDSManager 接口说明
@@ -254,6 +255,13 @@
   @return 请求ID，用于追踪sys.upload.result
 */
 -(NSString*)updateVocab:(NSString*) vocabName contents:(NSMutableArray*)contents addOrDelete:(BOOL) addOrDelete;
+
+/**
+ 更新热词识别接口(请求级别)
+
+ @param phraseHints phraseHints 需要更新的热词识别列表
+ */
+-(void)updatePhraseHints:(NSArray<AIPhraseHintsIntent*> *)phraseHints;
 
 /*!
   更新副唤醒词的接口
@@ -572,5 +580,35 @@
  */
 -(void)updateGenderGreeting:(NSArray<NSString *> *)maleGreetings And:(NSArray<NSString *> *)femaleGreetings;
 
+
+/**
+ 添加测试节点
+ */
+- (void)testJoin;
+
+
+/**
+ 删除测试节点
+ */
+- (void)testDelete;
+
+- (void)setWriteLasaLog:(BOOL )isWrite;
+
+
+/**
+ *  dca授权登录， 该方法需要在SDK初始化后使用;
+ *  此方法应该在 OauthSDK 登录获取 authCode 后使用
+ *
+ * @param authInfo 授权信息
+ * @param success 返回成功的信息
+ * @param failure 返回错误的信息
+ */
+-(void)setAuthCodeWithAuthinfo:(DDSAuthInfo *)authInfo success:(void (^)(void))success failure:(void (^)(int errorId, NSString *errorString))failure;
+
+
+/**
+ * 清除 authcode, 该方法需要在SDK初始化后使用;
+ */
+- (void)clearAuthCode;
 
 @end
